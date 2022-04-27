@@ -19,6 +19,7 @@ body {
 }
 
 .line-input {
+    display: inline-block;
     background: none;
     border: none;
     border-bottom: 5px solid;
@@ -66,7 +67,6 @@ footer {
         width: 80vw;
         margin-top: 2.5vh;
         margin-bottom: 2.5vh;
-        display: block;
     }
 
     footer {
