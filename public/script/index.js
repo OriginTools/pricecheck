@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function () {
+    FastClick.attach(document.body);
+}, false);
+
 var params = new URLSearchParams(window.location.search);
 
 if (params.has("item")) {
