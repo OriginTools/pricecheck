@@ -12,7 +12,6 @@ class Search {
             let item = Object.keys(this.#prices)[i];
             dists[item] = levenshtein(input.toLowerCase(), item.toLowerCase());
         }
-        console.log(dists);
         return Object.keys(dists).find(k => dists[k] === Math.min(...Object.values(dists)));
     }
 }

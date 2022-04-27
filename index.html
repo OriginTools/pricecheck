@@ -21,7 +21,7 @@
     <script src="https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js"
         integrity="sha512-Z9Db68AkBqAqt0TgNMdIc5BKLPFi3hT+M4nHT645HH7TymNg/eoUHJGSnJbr2XonC49l+jxRuXmrLrscIVWjOA=="
         crossorigin="anonymous"></script>
-        <script src="./public/script/js-levenshtein.js"></script>
+    <script src="./public/script/js-levenshtein.js"></script>
     <script src="./public/script/search.js"></script>
     <script src="./public/script/index.js" defer></script>
 </head>
@@ -29,7 +29,9 @@
 <body>
     <noscript>This page requires JavaScript to function!</noscript>
     <div id="container">
-        <h1 class="main-text">How much is my <input class="line-input" id="item" type="text" autofocus /> worth?</h1>
+        <h1 class="main-text"><span id="m-txt-pre">How much is my </span><input class="line-input" id="item" type="text"
+                onkeyup="debounce(updateSearch,300)();" autofocus /><span id="m-txt-post"> worth?</span></h1>
+                <p id="query"></p>
     </div>
     <footer>An OriginTools app. We are in no way affiliated with or endorsed by Mojang, AB or Piston Solutions.</footer>
 </body>
