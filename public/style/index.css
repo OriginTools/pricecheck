@@ -20,7 +20,10 @@ body {
 
 .line-input {
     display: inline-block;
-    background: none;
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     border: none;
     border-bottom: 5px solid;
     border-image: linear-gradient(90deg, rgba(133, 133, 133, 1) 0%, rgba(106, 106, 106, 1) 48%, rgba(133, 133, 133, 1) 100%) 1;
@@ -44,6 +47,7 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    user-select: none;
 }
 
 footer {
