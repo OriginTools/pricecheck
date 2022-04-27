@@ -81,7 +81,11 @@ footer {
         margin-bottom: 2.5vh;
     }
 
+    #query {
+        font-size: 4.5vw;
+    }
+
     footer {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 }
