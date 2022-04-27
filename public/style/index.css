@@ -39,7 +39,7 @@ body {
 }
 
 .main-text {
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: bold;
     font-family: "Ubuntu", Arial, sans-serif;
     background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
