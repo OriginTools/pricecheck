@@ -39,7 +39,7 @@ body {
 }
 
 .main-text {
-    font-size: 4.5vw;
+    font-size: 5vw;
     font-weight: bold;
     font-family: "Ubuntu", Arial, sans-serif;
     background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
@@ -48,6 +48,11 @@ body {
     -webkit-text-fill-color: transparent;
     text-align: center;
     user-select: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.long {
+    font-size: 3.5vw;
 }
 
 #query {

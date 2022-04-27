@@ -31,10 +31,16 @@ function updateSearch() {
         document.querySelector("#m-txt-pre").innerText = "How much is my ";
         document.querySelector("#m-txt-post").innerText = " worth?";
         document.querySelector("#query").innerText = "";
+        document.querySelectorAll(".main-text").forEach(e => e.classList.remove("long"));
         return;
     }
     let closestItem = search.parseSearch(val);
     let closestPrice = search.getPrice(closestItem);
+    if (closestPrice.toString().length > 3) {
+        document.querySelectorAll(".main-text").forEach(e => e.classList.add("long"));
+    } else {
+        document.querySelectorAll(".main-text").forEach(e => e.classList.remove("long"));
+    }
     document.querySelector("#query").innerText = "(For item: " + closestItem + ")";
     document.querySelector("#m-txt-pre").innerText = "One ";
     if (closestPrice == 1) {
