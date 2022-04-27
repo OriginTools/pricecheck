@@ -2,6 +2,7 @@ html,
 body {
     height: 100vh;
     min-height: 100vh;
+    min-height: -webkit-fill-available;
     overflow: hidden;
     background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
     background-blend-mode: multiply;
@@ -23,6 +24,7 @@ body {
     border-bottom: 5px solid;
     border-image: linear-gradient(90deg, rgba(133, 133, 133, 1) 0%, rgba(106, 106, 106, 1) 48%, rgba(133, 133, 133, 1) 100%) 1;
     font-size: inherit;
+    color: white;
     text-overflow: ellipsis;
     width: 35vw;
     vertical-align: middle;
