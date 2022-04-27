@@ -24,7 +24,6 @@ body {
     border-bottom: 5px solid;
     border-image: linear-gradient(90deg, rgba(133, 133, 133, 1) 0%, rgba(106, 106, 106, 1) 48%, rgba(133, 133, 133, 1) 100%) 1;
     font-size: inherit;
-    display: inline;
     text-overflow: ellipsis;
     width: 35vw;
     vertical-align: middle;
@@ -65,7 +64,9 @@ footer {
 
     .line-input {
         width: 80vw;
-        margin-bottom: 5vh;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+        display: block;
     }
 
     footer {
