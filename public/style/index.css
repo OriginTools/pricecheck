@@ -61,6 +61,7 @@ body {
     font-size: 1.5vw;
     font-family: sans-serif;
     font-style: italic;
+    user-select: none;
 }
 
 #disagree {
@@ -70,6 +71,7 @@ body {
     font-size: 1.25vw;
     font-family: sans-serif;
     font-style: italic;
+    user-select: none;
 }
 
 #disagree a {
@@ -107,6 +109,7 @@ footer {
     font-family: sans-serif;
     font-size: 1vw;
     background: #111;
+    user-select: none;
 }
 
 @media screen and (max-width: 600px) {
