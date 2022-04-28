@@ -79,6 +79,10 @@ footer {
     .main-text {
         font-size: 10vw;
     }
+    
+    .long {
+        font-size: 7vw;
+    }
 
     .line-input {
         width: 80vw;
