@@ -31,6 +31,7 @@ function updateSearch() {
         document.querySelector("#m-txt-pre").innerText = "How much is my ";
         document.querySelector("#m-txt-post").innerText = " worth?";
         document.querySelector("#query").innerText = "";
+        document.querySelector("#disagree").style.visibility = "hidden";
         document.querySelectorAll(".main-text").forEach(e => e.classList.remove("long"));
         return;
     }
@@ -42,6 +43,7 @@ function updateSearch() {
         document.querySelectorAll(".main-text").forEach(e => e.classList.remove("long"));
     }
     document.querySelector("#query").innerText = "(For item: " + closestItem + ")";
+    document.querySelector("#disagree").style.visibility = "visible";
     document.querySelector("#m-txt-pre").innerText = "One ";
     if (closestPrice == 1) {
         document.querySelector("#m-txt-post").innerText = " is worth 1 ruby.";

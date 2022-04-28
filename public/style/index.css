@@ -63,6 +63,20 @@ body {
     font-style: italic;
 }
 
+#disagree {
+    visibility: hidden;
+    margin: 0;
+    color: #777;
+    font-size: 1.25vw;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.jotted-link {
+    text-decoration: underline wavy #777;
+    color: inherit;
+}
+
 footer {
     position: absolute;
     bottom: 0;
@@ -92,6 +106,10 @@ footer {
 
     #query {
         font-size: 4.5vw;
+    }
+
+    #disagree {
+        font-size: 3vw;
     }
 
     footer {
