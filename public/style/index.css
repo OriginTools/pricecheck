@@ -84,6 +84,7 @@ body {
 /* moving the class def of jotted-link didn't fix */
 footer a {
     text-decoration-color: #ffffff80 !important;
+    text-underline-offset: 0.1em;
 }
 
 footer a:hover {
