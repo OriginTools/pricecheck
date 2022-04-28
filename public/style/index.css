@@ -72,15 +72,28 @@ body {
     font-style: italic;
 }
 
-.jotted-link {
-    text-decoration: dashed underline;
+#disagree a {
     text-decoration-color: #77777730;
-    color: inherit;
-    transition: text-decoration-color 0.25s ease-in-out;
 }
 
-.jotted-link:hover {
+#disagree a:hover {
     text-decoration-color: #777;
+}
+
+/* no clue why this needs to be !important, but whatevs */
+/* moving the class def of jotted-link didn't fix */
+footer a {
+    text-decoration-color: #ffffff80 !important;
+}
+
+footer a:hover {
+    text-decoration-color: #fff !important;
+}
+
+.jotted-link {
+    text-decoration: dashed underline;
+    color: inherit;
+    transition: text-decoration-color 0.25s ease-in-out;
 }
 
 footer {
@@ -99,7 +112,7 @@ footer {
     .main-text {
         font-size: 10vw;
     }
-    
+
     .long {
         font-size: 7vw;
     }
