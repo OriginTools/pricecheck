@@ -73,8 +73,14 @@ body {
 }
 
 .jotted-link {
-    text-decoration: underline wavy #777;
+    text-decoration: dashed underline;
+    text-decoration-color: #77777730;
     color: inherit;
+    transition: text-decoration-color 0.25s ease-in-out;
+}
+
+.jotted-link:hover {
+    text-decoration-color: #777;
 }
 
 footer {
