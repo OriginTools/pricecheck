@@ -48,5 +48,5 @@ app.use(function (req, res, next) {
   res.type('txt').send('Not found');
 });
 
-app.listen(6002);
-console.log("Live @ 6002");
+app.listen(8080);
+console.log("Live @ 8080");

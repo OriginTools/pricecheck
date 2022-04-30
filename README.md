@@ -10,7 +10,7 @@ Enter the item name into the input field and the result will appear automaticall
 
 1. Fork the repo and clone it.
 2. Install the dependencies: `npm install`
-3. Run the server: `npm start`
+3. Run the server: `npm start`, the site will be available on port 8080 (localhost:8080).
 4. Make your edits and commit them.
 5. Make a PR pointing your fork to the main branch. Make sure you give the PR a helpful title and description!
 
