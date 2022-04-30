@@ -2,4 +2,5 @@
     font-family: Ubuntu;
     src: url(../Ubuntu-Regular.ttf),
         url("./Ubuntu-Regular.woff");
+    font-display: swap;
 }
