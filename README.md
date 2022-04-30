@@ -22,6 +22,8 @@ Enter the item name into the input field and the result will appear automaticall
 
 > Example of an unacceptable change: including the ruby item texture in the results
 
+> Failing to stick to these guidelines will result in your changes being rejected or modified significantly.
+
 ## Contributing - Price Data
 
 Please refer to [issue #4](https://github.com/OriginTools/pricecheck/issues/4).
