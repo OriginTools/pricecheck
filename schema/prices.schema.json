@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "OriginTools Price Check - Price Data Schema",
+    "description": "Schema for price data.",
+    "type": "object",
+    "patternProperties": {
+        "^.*$": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "integer"
+                }
+            ]
+        }
+    },
+    "additionalProperties": false
+}
