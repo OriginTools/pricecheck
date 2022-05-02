@@ -1,3 +1,6 @@
+// Adapted for browser use from js-levenshtein on npm, written by gustf
+// License: MIT
+
 levenshtein = (function()
 {
   function _min(d0, d1, d2, bx, ay)
